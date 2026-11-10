@@ -3,13 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zero Error Solution</title>
+    <title>Muhammad Rahman | Flutter Developer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <h1>Zero Error Solution</h1>
-    <h2>Muhammad Rahman</h2>
-    <p>Flutter Developer</p>
-    <p>Welcome to my personal website.</p>
-    <p>I develop mobile applications using Flutter and Dart.</p>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between">
+
+    <!-- Header / Hero Section -->
+    <header class="max-w-4xl mx-auto px-6 pt-16 pb-8 text-center border-b border-slate-800">
+        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-3">
+            Muhammad Rahman
+        </h1>
+        <p class="text-xl text-sky-400 font-semibold mb-4">
+            Cross-Platform Mobile Application Engineer
+        </p>
+        <p class="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed">
+            Specializing in building high-performance, production-ready iOS & Android applications. Focused on Feature-First Clean Architecture, state management, and seamless backend integrations under the publisher identity <span class="text-slate-200 font-medium">Zero Error Solution</span>.
+        </p>
+
+        <!-- Social & Contact Buttons -->
+        <div class="flex flex-wrap justify-center gap-4 mt-8">
+            <a href="https://github.com" target="_blank" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 px-4 py-2.5 rounded-lg font-medium transition border border-slate-700">
+                <i class="fab fa-github"></i> GitHub Profile
+            </a>
+            <a href="https://play.google.com/store/apps/developer?id=Zero+Error+Solution" target="_blank" class="flex items-center gap-2 bg-sky-600 hover:bg-sky-500 text-white px-4 py-2.5 rounded-lg font-medium transition">
+                <i class="fab fa-google-play"></i> Google Play Developer
+            </a>
+            <a href="mailto:contact@example.com" class="flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 px-4 py-2.5 rounded-lg font-medium transition border border-slate-700">
+                <i class="fas fa-envelope"></i> Contact Me
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-12 flex-grow space-y-12">
+
+        <!-- Core Technical Stack -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 border-l-4 border-sky-500 pl-3">
+                Tech Stack & Expertise
+            </h2>
+            <div class="flex flex-wrap gap-2">
+                <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
+                <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
+                <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+                <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
+                <img src="https://img.shields.io/badge/REST_APIs-00558C?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs">
+                <img src="https://img.shields.io/badge/Architecture-Clean%20Code-464646?style=for-the-badge" alt="Clean Architecture">
+                <img src="https://img.shields.io/badge/State-BLoC%20%2F%20Provider%20%2F%20GetX-008080?style=for-the-badge" alt="State Management">
+            </div>
+        </section>
+
+        <!-- Featured Applications -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 border-l-4 border-sky-500 pl-3">
+                Featured Applications
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                <!-- Application Card 1 -->
+                <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-6 flex flex-col justify-between hover:border-sky-500/50 transition">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-white">My Diary: Note Book</h3>
+                            <span class="bg-sky-500/10 text-sky-400 text-xs px-2.5 py-1 rounded-full font-semibold border border-sky-500/20">Production</span>
+                        </div>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            A modular mobile diary application with customizable themes, personal note organization, and Google AdMob monetization layouts.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Flutter</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Dart</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">AdMob</span>
+                        </div>
+                        <a href="https://play.google.com/store/apps/details?id=com.ZeroErrorSolution.myNoteBooks" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-400 hover:text-sky-300 transition">
+                            View on Play Store <i class="fas fa-external-link-alt text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Application Card 2 -->
+                <div class="bg-slate-800/60 border border-slate-700/80 rounded-xl p-6 flex flex-col justify-between hover:border-sky-500/50 transition">
+                    <div>
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-bold text-white">Malgro</h3>
+                            <span class="bg-emerald-500/10 text-emerald-400 text-xs px-2.5 py-1 rounded-full font-semibold border border-emerald-500/20">In Development</span>
+                        </div>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            A modern messaging platform concept focused on real-time communication UI, clean architectural design, and custom component layout.
+                        </p>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Flutter</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">Firebase</span>
+                            <span class="text-xs bg-slate-700 text-slate-300 px-2 py-1 rounded">BLoC</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="inline-flex items-center gap-1.5 text-sm font-semibold text-sky-400 hover:text-sky-300 transition">
+                            View Source Code <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Development Engineering Principles -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 border-l-4 border-sky-500 pl-3">
+                Engineering Approach
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-slate-800/40 border border-slate-800 p-5 rounded-lg">
+                    <i class="fas fa-cubes text-sky-400 text-xl mb-3"></i>
+                    <h3 class="font-semibold text-white mb-1">Clean Architecture</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Organized by Feature-First patterns for maximum code maintainability and scalability.</p>
+                </div>
+                <div class="bg-slate-800/40 border border-slate-800 p-5 rounded-lg">
+                    <i class="fas fa-sliders-h text-sky-400 text-xl mb-3"></i>
+                    <h3 class="font-semibold text-white mb-1">Robust State Control</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Predictable state management using BLoC, Provider, and GetX architectural tools.</p>
+                </div>
+                <div class="bg-slate-800/40 border border-slate-800 p-5 rounded-lg">
+                    <i class="fas fa-bolt text-sky-400 text-xl mb-3"></i>
+                    <h3 class="font-semibold text-white mb-1">High Performance</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">Smooth 60 FPS UIs with lightweight backend integrations via REST APIs & Firebase.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 text-center py-6 text-slate-500 text-sm">
+        <p>© 2026 Muhammad Rahman (Zero Error Solution). Built with HTML & Tailwind CSS.</p>
+    </footer>
+
 </body>
 </html>
